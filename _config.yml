@@ -10,7 +10,7 @@ title:            Vim4u
 tagline:          A place where we learn Vim (the Editior) :)
 url:              http://vim4u.com
 paginate:         1
-baseurl:          /vim4u/
+baseurl:          /
 author:
   name:           Rituraj Ratan
   url:            https://twitter.com/ratanrituraj
