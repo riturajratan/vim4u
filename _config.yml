@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Rituraj Ratan
-tagline:          Living in the world to share quality knowledge ;)
-url:              http://riturajratan.com
+title:            Vim4u
+tagline:          A place where we learn Vim (the Editior) :)
+url:              http://vim4u.com
 paginate:         1
 baseurl:          /
 author:
