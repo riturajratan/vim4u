@@ -13,9 +13,11 @@ Thsi command will not run in insert and visual mode it will work in command mode
 
 ### Show line number in vim
 {% highlight html %}
+
 :set number
 or 
 :set nu
+
 {% highlight html %}
 
 ### Hide line number in vim
@@ -29,13 +31,16 @@ or
 or 
 
 :set nu!
+
 {% highlight html %}
 
 
 -----
 
 If you want by default when vim load this above setting then write in .vimrc file
+
 {% highlight html %}
+
 set number
 
 or
@@ -45,4 +50,5 @@ set nu
 like as we mention on above
 
 Thanks!
+
 {% highlight html %}
