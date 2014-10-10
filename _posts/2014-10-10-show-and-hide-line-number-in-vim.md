@@ -8,27 +8,45 @@ path: 2014-10-10-show-and-hide-line-number-in-vim.md
 
 ---
 
-In vim default line number are not shown so to show the line number in vim we need to set it also we can unset.here i am describe how to show and hide line number.
-Thsi command will not run in insert and visual mode it will work in command mode. to go command mode press ESC key then write below for       
+In vim by default line number are not shown so to show the line number in vim we need to set it manually also we can unset.Here i am describe how to show and hide line number in vim. 
+
+This command will not run in insert and visual mode.It will work in command mode. for command mode press ESC key then write below        
 
 ### Show line number in vim
 {% highlight html %}
 
 :set number
-or 
+
+{% endhighlight %}
+
+Or 
+
+{% highlight html %}
+
 :set nu
 
 {% endhighlight %}
 
+
 ### Hide line number in vim
+
 {% highlight html %}
+
 :set nonumber
 
-or 
+{% endhighlight %}
+
+Or 
+
+{% highlight html %}
 
 :set nonu
 
-or 
+{% endhighlight %}
+
+Or 
+
+{% highlight html %}
 
 :set nu!
 
@@ -37,18 +55,22 @@ or
 
 -----
 
-If you want by default when vim load this above setting then write in .vimrc file
+If you want by default vim load this above setting then write in your .vimrc file
 
 {% highlight html %}
 
 set number
 
-or
+{% endhighlight %}
+
+Or
+
+{% highlight html %}
 
 set nu
 
-like as we mention on above
+{% endhighlight %}
+
+like as we mention on above.
 
 Thanks!
-
-{% endhighlight %}
