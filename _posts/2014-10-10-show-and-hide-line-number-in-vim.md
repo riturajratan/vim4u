@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Show and hide line number in vim
 author: Rituraj Ratan
 layout: post

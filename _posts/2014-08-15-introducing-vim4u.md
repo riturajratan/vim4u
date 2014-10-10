@@ -1,6 +1,10 @@
 ---
-layout: post
 title: Introducing vim4u
+author: Rituraj Ratan
+layout: post
+permalink: /2014-08-15-introducing-vim4u
+disqus: http://www.vim4u.com/2014-08-15-introducing-vim4u
+path: 2014-08-15-introducing-vim4u.md
 
 ---
 ### vim4u
