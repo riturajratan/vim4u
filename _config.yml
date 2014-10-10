@@ -4,12 +4,13 @@ pygments:         true
 
 # Permalinks
 permalink:        pretty
-
+exclude: ['README.md', 'src/', 'node_modules', 'package.json', 'Gruntfile.js', '*.command']
+permalink: /:year/:month/:title
 # Setup
 title:            Vim4u
 tagline:          A place where we learn Vim (the Editior) :)
 url:              http://vim4u.com
-paginate:         1
+paginate:         10
 baseurl:          /
 author:
   name:           Rituraj Ratan
