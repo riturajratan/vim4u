@@ -6,13 +6,6 @@ permalink: /2014-08-15-introducing-vim4u
 disqus: http://www.vim4u.com/2014-08-15-introducing-vim4u
 path: 2014-08-15-introducing-vim4u.md
 
-title: Show and hide line number in vim
-author: Rituraj Ratan
-layout: post
-permalink: /2014-10-10-show-and-hide-line-number-in-vim
-disqus: http://www.vim4u.com/2014-10-10-show-and-hide-line-number-in-vim
-path: 2014-10-10-show-and-hide-line-number-in-vim.md
-
 ---
 ### vim4u
 
