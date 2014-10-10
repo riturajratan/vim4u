@@ -18,7 +18,7 @@ Thsi command will not run in insert and visual mode it will work in command mode
 or 
 :set nu
 
-{% highlight html %}
+{% endhighlight %}
 
 ### Hide line number in vim
 {% highlight html %}
@@ -32,7 +32,7 @@ or
 
 :set nu!
 
-{% highlight html %}
+{% endhighlight %}
 
 
 -----
@@ -51,4 +51,4 @@ like as we mention on above
 
 Thanks!
 
-{% highlight html %}
+{% endhighlight %}
