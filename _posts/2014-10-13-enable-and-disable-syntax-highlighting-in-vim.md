@@ -4,7 +4,7 @@ author: Rituraj Ratan
 layout: post
 permalink: /enable-and-disable-syntax-highlighting-in-vim
 disqus: http://www.vim4u.com/enable-and-disable-syntax-highlighting-in-vim.md
-path: enable-and-disable-syntax-highlighting-in-vim.md
+path: 2014-10-13-enable-and-disable-syntax-highlighting-in-vim.md
 
 
 ---
