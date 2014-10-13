@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Vim4u
 tagline:          A place where we learn Vim (the Editior) :)
-url:              http://vim4u.com
+url:              http://vim4u.com/
 paginate:         10
 baseurl:          /
 author:
