@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>Learn Angular JS in easy way </title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js">
+	</script>
+</head>
+<body>
+
+<h1>Hi this is a all about that how to learn Angular js </h1>
+
+<p>So First</p>
+
+<h1>What is angular js ?</h1>
+<p>It is a Javascript framework which provide intericity with HTML</p>
+
+<h1>Before you start what would you need to know </h1>
+
+<p>HTML, CSS and Javascript is necesary to work with AngularJS and if you know jquery that will be good else no worry.</p>
+
+<h1>WHy you use this </h1>
+<p>For sinle page application it is too good.
+
+easily work with jquery
+
+easy to test
+
+provide a modular approach to your code
+
+and one and most good feature you need to write very small code for its two way data binding feature(we will discuss it no worry)
+</p>
+
+In the Angular Main thing is Directives
+ what is directive
+
+ In our html when we add this as a tag  then angular js know that it work on this palace for javascript code.
+
+ like a demo
+ in our normal Work
+
+ <code>
+
+ 	<!DOCTYPE html>
+ 	<html>
+ 	<head>
+ 		<title></title>
+ 	</head>
+ 	<body onload="hello()">
+
+ 	</body>
+ 	</html>
+ </code>
+and for angular we will write
+
+<code>
+	<!DOCTYPE html>
+	<html ng-app="Test">// here we say to angular that start from this tag
+	<head>
+		<title></title>
+	</head>
+	<body ng-controller="hello"> // here angular take a coomand from us that it shoud execute hello function and it alert "hello"
+
+	</body>
+	</html>
+
+</code>
+
+
+OK Now let's come to the  point how you will start with work in angular js ?
+
+<h1>ng-app (Angular Module)</h1> say to angular js active on which poretion of page
+
+First in your html like below
+<code>
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body ng-app="">//Now it Tells to AngularJS to be active in this portion of the page. In this case the entire document.(due to we apply on html tag )
+	 <div>
+	<!--   <input type="text" ng-model="testName" placeholder="Enter a name here">
+      <h1>Hello, {{ yourName }}!</h1> -->
+	</div>
+	</body>
+	</html>
+</code>
+
+<div>
+	  <input type="text" ng-model="testName" placeholder="Enter a name here">
+      <h1>Hello Test, {{ testName }}!</h1>
+	</div>
+
+Here we see two way data binding( bi-directional data binding )without any work this is the featute of angular js when you will change in bacend changes are shown on view . thsi is the magic of angular js .
+
+Here we see three things
+ng-app= here we say to start Angular js on our page
+ng-model="testName" = by this we say two way data binding start on this testName model on this page.
+{{ testName}} =here angular show changes on testName model on this directive
+
+
+
+Module is a collection of function which is inisiate when this module is called
+
+Now we make a module in angular js
+
+var TestModule=angular.module("myModule",[]);
+
+myModule= is the name of module by which module is made
+
+[] = this is use for dependiency like this moduile depends on which module rigth now dont worry about it we will discuss it :)
+
+
+now how will we use this module simple
+now in our html we will put in ng-app="myModule"
+
+in below module active on all page
+<code>
+	<!DOCTYPE html>
+	<html ng-app="myModule">
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+	</body>
+	</html>
+</code>
+in below this is active on a specific div
+<code>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div ng-app="myModule">
+
+</div>
+</body>
+</html>
+</code>
+
+After initilize module we will need to write our all logic by which we polay with angular for this we need $scope, ng-controller,directive ,service,routing
+we will come it one by one
+
+so first start with $scope
+<h1>$$cope on Angular js </h1>
+now go to next article
+</body>
+</html>
+<script type="text/javascript">
+
+	function hello(){
+
+alert("hello");
+
+	}
+</script>

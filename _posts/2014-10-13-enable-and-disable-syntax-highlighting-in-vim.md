@@ -11,7 +11,7 @@ path: 2014-10-13-enable-and-disable-syntax-highlighting-in-vim.md
 
 In vim by default syntax highlight are not enable so to enable the syntax highlight in vim we need to set it manually also we can disable.Here i am describe how to enable and disable syntax highlighting in vim. 
 
-This command will not run in insert and visual mode.It will work in command mode. for command mode press ESC key then write below        
+>This command will not run in insert and visual mode.It will work in command mode. for command mode press ESC key then write below        
 
 ### Enable syntax highlighting in vim
 

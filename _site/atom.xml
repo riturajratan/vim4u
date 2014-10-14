@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Vim4u</title>
+ <link href="http://vim4u.com/atom.xml" rel="self"/>
+ <link href="http://vim4u.com/"/>
+ <updated>2014-10-14T18:40:21+05:30</updated>
+ <id>http://vim4u.com</id>
+ <author>
+   <name>Rituraj Ratan</name>
+   <email>riturajratan@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Enable and disable code indentation in vim</title>
+   <link href="http://vim4u.com//enable-and-disable-code-indentation-in-vim"/>
+   <updated>2014-10-14T00:00:00+05:30</updated>
+   <id>http://vim4u.com/enable-and-disable-code-indentation-in-vim</id>
+   <content type="html">&lt;p&gt;In vim by default code indentation are not enable so to enable the code indentation in vim we need to set it manually also we can disable.Here i am describe how to enable and disable code indentation in vim. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This command will not run in insert and visual mode.It will work in command mode. for command mode press ESC key then write below        &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Automatic Indentation&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Enable code indentation in vim&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:filetype indent on&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Disable code indentation in vim&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:filetype indent off&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;If you want by default vim load this above setting then write in your .vimrc file&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;filetype indent on&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;like as we mention on above.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Adjusting and Correcting Indentation&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;In general, ={motion} will align code to an indentation level.&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;S.N.&lt;/th&gt;&lt;th&gt;command&lt;/th&gt;&lt;th&gt;Work&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;==&lt;/td&gt;&lt;td&gt;align the current line&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;=i{&lt;/td&gt;&lt;td&gt;align the inner block&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;=%&lt;/td&gt;&lt;td&gt;align to the matching parenthesis/bracket under the cursor&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;=14j or 14==&lt;/td&gt;&lt;td&gt;align the next 14 lines&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;=G&lt;/td&gt;&lt;td&gt;align to the end of the file&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;vG=&lt;/td&gt;&lt;td&gt;same thing, align to the end of the file (but using visual mode)&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;vjjj=&lt;/td&gt;&lt;td&gt;align four lines (using visual mode)&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;gg=G&lt;/td&gt;&lt;td&gt;algin code in full file &lt;br/&gt; here  &lt;strong&gt;=&lt;/strong&gt; the indent command can take motions. So, By  &lt;strong&gt;gg&lt;/strong&gt; we go to the start of the file,  &lt;strong&gt;=&lt;/strong&gt; to indent and by  &lt;strong&gt;G&lt;/strong&gt; to the end of the file,  &lt;strong&gt;gg=G&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Enable and disable syntax highlighting in vim</title>
+   <link href="http://vim4u.com//enable-and-disable-syntax-highlighting-in-vim"/>
+   <updated>2014-10-13T00:00:00+05:30</updated>
+   <id>http://vim4u.com/enable-and-disable-syntax-highlighting-in-vim</id>
+   <content type="html">&lt;p&gt;In vim by default syntax highlight are not enable so to enable the syntax highlight in vim we need to set it manually also we can disable.Here i am describe how to enable and disable syntax highlighting in vim. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This command will not run in insert and visual mode.It will work in command mode. for command mode press ESC key then write below        &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Enable syntax highlighting in vim&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:syntax on&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Disable syntax highlighting in vim&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:syntax off&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;If you want by default vim load this above setting then write in your .vimrc file&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;syntax on&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;like as we mention on above.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Show and hide line number in vim</title>
+   <link href="http://vim4u.com//show-and-hide-line-number-in-vim"/>
+   <updated>2014-10-10T00:00:00+05:30</updated>
+   <id>http://vim4u.com/show-and-hide-line-number-in-vim</id>
+   <content type="html">&lt;p&gt;In vim by default line number are not shown so to show the line number in vim we need to set it manually also we can unset.Here i am describe how to show and hide line number in vim. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This command will not run in insert and visual mode.It will work in command mode. for command mode press ESC key then write below        &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Show line number in vim&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:set number&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:set nu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Hide line number in vim&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:set nonumber&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:set nonu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;:set nu!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;If you want by default vim load this above setting then write in your .vimrc file&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;set number&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;set nu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;like as we mention on above.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introducing vim4u</title>
+   <link href="http://vim4u.com//introducing-vim4u"/>
+   <updated>2014-08-15T00:00:00+05:30</updated>
+   <id>http://vim4u.com/introducing-vim4u</id>
+   <content type="html">&lt;h3&gt;vim4u&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vim4u.com&quot;&gt;vim4u&lt;/a&gt; is a vim blog community  where we share vim  news, vim plugins, video tutorials, vim demos, code snippets and tips related to vim.All the stuff related to vim editior we will discuss here.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
